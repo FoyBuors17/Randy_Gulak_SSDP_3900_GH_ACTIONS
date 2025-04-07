@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello from BCIT"
+      - name: Output Date
+        run: echo "The date is $(date)"
+      - name: Output Time
+        run: echo "The time is $(date)"
+      - name: Output Time
+        run: echo "The time is $(date)"
